@@ -3,12 +3,12 @@
 
 class Solution {
     public int solution(int n) {
-        /*int answer = 0;
+        int answer = 0;
 
         if(n % 7 == 0) answer = n / 7;
         else answer = n / 7 + 1;
 
-        return answer;*/
+        return answer;
 
         // 삼항 연산자 사용 (조건식 ? 반환값 1 : 반환값 2)
         return n % 7 == 0 ? n / 7 : n / 7 + 1;
