@@ -31,13 +31,17 @@ public class The_addition_of_fractions {
         int numer2 = 3;
         int denom2 = 4;
         int[] result = sol.solution(numer1, denom1, numer2, denom2);
-        System.out.println("result = " + Arrays.toString(result));
+        System.out.println(numer1 + " / "+ denom1 + " + "
+                + numer2 + " / " + denom2 +
+                " = " + Arrays.toString(result));
 
         numer1 = 9;
         denom1 = 2;
         numer2 = 1;
         denom2 = 3;
         result = sol.solution(numer1, denom1, numer2, denom2);
-        System.out.println("result = " + Arrays.toString(result));
+        System.out.println(numer1 + " / "+ denom1 + " + "
+                + numer2 + " / " + denom2 +
+                " = " + Arrays.toString(result));
     }
 }
